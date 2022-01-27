@@ -2605,16 +2605,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/apply-release-plan@npm:5.0.1":
-  version: 5.0.1
-  resolution: "@changesets/apply-release-plan@npm:5.0.1"
+"@changesets/apply-release-plan@npm:5.0.4":
+  version: 5.0.4
+  resolution: "@changesets/apply-release-plan@npm:5.0.4"
   dependencies:
     "@babel/runtime": ^7.10.4
-    "@changesets/config": ^1.6.1
+    "@changesets/config": ^1.6.4
     "@changesets/get-version-range-type": ^0.3.2
-    "@changesets/git": ^1.1.2
-    "@changesets/types": ^4.0.1
-    "@manypkg/get-packages": ^1.0.1
+    "@changesets/git": ^1.3.0
+    "@changesets/types": ^4.0.2
+    "@manypkg/get-packages": ^1.1.3
     detect-indent: ^6.0.0
     fs-extra: ^7.0.1
     lodash.startcase: ^4.4.0
@@ -2622,7 +2622,7 @@ __metadata:
     prettier: ^1.19.1
     resolve-from: ^5.0.0
     semver: ^5.4.1
-  checksum: 787f36d43b7ccd4557add247710e76d86edb55e8aa230ff4596179a8b3fb40758cc6800b8bb4b7f9a35bd3ff352d3a75bc84f381b5de6419cd4063d60a96501b
+  checksum: 59c74667fd4a3fbdcbe499f9e3c72bbfc87ba0f1dfda7c21ad3feb292ff741c07075c6d66a819ddcc4b6a0db4132e1f35955988c34cb33fd88830141c40a2fdf
   languageName: node
   linkType: hard
 
@@ -2695,6 +2695,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@changesets/config@npm:^1.6.4":
+  version: 1.6.4
+  resolution: "@changesets/config@npm:1.6.4"
+  dependencies:
+    "@changesets/errors": ^0.1.4
+    "@changesets/get-dependents-graph": ^1.3.0
+    "@changesets/logger": ^0.0.5
+    "@changesets/types": ^4.0.2
+    "@manypkg/get-packages": ^1.1.3
+    fs-extra: ^7.0.1
+    micromatch: ^4.0.2
+  checksum: 2d48ef0232a204cebb1194ac13d444e4ec44213296d587fdce5de7f795fecc92bf34a9d069ecadec93c19a6ce8d696f168ab08c60aa2c46eb273ca4e7d3296e8
+  languageName: node
+  linkType: hard
+
 "@changesets/errors@npm:^0.1.4":
   version: 0.1.4
   resolution: "@changesets/errors@npm:0.1.4"
@@ -2714,6 +2729,19 @@ __metadata:
     fs-extra: ^7.0.1
     semver: ^5.4.1
   checksum: 000adee0b3052cdcdb0b1c1f5d8c1e3cf4f6ba6ed8c1a6202c77ad052a6fc4801c01d945f0917dd6eb578d977022d7ed7ccfc2714cc1b601f9100e2128694649
+  languageName: node
+  linkType: hard
+
+"@changesets/get-dependents-graph@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@changesets/get-dependents-graph@npm:1.3.0"
+  dependencies:
+    "@changesets/types": ^4.0.2
+    "@manypkg/get-packages": ^1.1.3
+    chalk: ^2.1.0
+    fs-extra: ^7.0.1
+    semver: ^5.4.1
+  checksum: c66b2ba87e07cd233823f974c284c0ab202755087b402abe0204cacd52a30baf0fa9b2059fec330481d93171aaae0dc6d7b1ea9496f7596d98c0ac1b1f268126
   languageName: node
   linkType: hard
 
@@ -2750,6 +2778,20 @@ __metadata:
     is-subdir: ^1.1.1
     spawndamnit: ^2.0.0
   checksum: fd817106fb42bf0d4a38a7358ed5f604faeb0960e2239dece066e8f3ff64bfe2736aaed7556f6f274917625b2279eec1162c1b2b703e7cb6dd7dd96adac76213
+  languageName: node
+  linkType: hard
+
+"@changesets/git@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@changesets/git@npm:1.3.0"
+  dependencies:
+    "@babel/runtime": ^7.10.4
+    "@changesets/errors": ^0.1.4
+    "@changesets/types": ^4.0.2
+    "@manypkg/get-packages": ^1.1.3
+    is-subdir: ^1.1.1
+    spawndamnit: ^2.0.0
+  checksum: 652df52416c1904dcbff39a2aa64fd44e319638fc184cf2c840d95cfadad97ffc8578df6d1cb1065372a3aa5a0e0948ec92cdefee22d37982c4306287156e5fb
   languageName: node
   linkType: hard
 
